@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Travel Blog</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Navigation Bar */
+
+nav{
+    background:#333;
+    padding:15px;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color:#ffcc70;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    padding:60px;
+    background:url("https://img.freepik.com/free-vector/travel-background-with-decorative-objects-flat-design_23-2147597891.jpg?semt=ais_hybrid&w=740&q=80") center/cover;
+    color:black;
+}
+
+header h1{
+    font-size:50px;
+}
+
+/* Blog Sections */
+
+section{
+    padding:40px;
+    max-width:900px;
+    margin:auto;
+}
+
+.blog{
+    background:white;
+    padding:20px;
+    margin-bottom:40px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.blog img{
+    width:100%;
+    border-radius:10px;
+}
+
+.blog h2{
+    margin-top:15px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#333;
+    color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#trip1">Goa Trip</a></li>
+<li><a href="#trip2">Manali Trip</a></li>
+<li><a href="#trip3">Jaipur Trip</a></li>
+</ul>
+</nav>
+
+<!-- Header -->
+
+<header id="home">
+<h1>My Travel Blog</h1>
+<p>Stories from places I explored</p>
+</header>
+
+<!-- Trip 1 -->
+
+<section id="trip1">
+
+<div class="blog">
+
+<img src="https://redthreadhotels.com/wp-content/uploads/2024/11/Find-the-Best-Beaches-for-Sunset-in-Goa.jpg">
+
+<h2>Sunsets in Goa</h2>
+
+<p>
+My trip to Goa was full of golden sunsets, salty air, and relaxing beaches.
+I spent evenings walking along Baga Beach while the sky turned orange and
+pink. The seafood was amazing and the nightlife made the city feel alive.
+Goa is the perfect place if you want a mix of adventure and relaxation.
+</p>
+
+</div>
+
+</section>
+
+<!-- Trip 2 -->
+
+<section id="trip2">
+
+<div class="blog">
+
+<img src="https://www.snowvalleyresorts.com/wp-content/uploads/featurd-image-min.webp">
+
+<h2>Snowy Adventures in Manali</h2>
+
+<p>
+Manali felt like stepping into a winter postcard. Snow covered the mountains
+and the cold air was refreshing. I tried skiing for the first time and
+visited Solang Valley where the view of the Himalayas was breathtaking.
+Drinking hot chocolate while watching snowfall was my favorite memory.
+</p>
+
+</div>
+
+</section>
+
+<!-- Trip 3 -->
+
+<section id="trip3">
+
+<div class="blog">
+
+<img src="https://c8.alamy.com/comp/H9291J/new-gate-entrance-to-the-pink-city-of-jaipur-H9291J.jpg">
+
+<h2>Royal Streets of Jaipur</h2>
+
+<p>
+Jaipur, the Pink City, is full of history and culture. I explored the
+magnificent Amber Fort and admired the architecture of Hawa Mahal.
+The colorful bazaars were perfect for shopping traditional jewelry
+and textiles. Every street felt vibrant and full of stories from
+Rajasthan's royal past.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 My Travel Blog</p>
+
+</footer>
+
+</body>
+</html>
