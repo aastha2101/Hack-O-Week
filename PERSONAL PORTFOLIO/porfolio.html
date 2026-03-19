@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 15px;
+        }
+
+        /* Header / Profile Section */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #007bff;
+            margin-bottom: 15px;
+        }
+
+        h1 { margin: 10px 0; color: #2c3e50; }
+        .tagline { color: #007bff; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* Sections */
+        h2 {
+            border-left: 5px solid #007bff;
+            padding-left: 15px;
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        /* Skills Grid */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill-card {
+            background: #eef2f3;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            background: #007bff;
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        /* Contact Section */
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover { text-decoration: underline; }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="C:\Users\rajko\Downloads\myphoto4.jpg" alt="Profile Photo" class="profile-img">
+        <h1>AASTHA RAJKOTIA</h1>
+        <p class="tagline">Developer | Learner | Problem Solver</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p class="about-text">
+            My journey into the world of technology began with a deep-seated passion for Mathematics. I've always been fascinated by how complex problems can be broken down into logical steps and elegant proofs. This natural affinity for logic and structure is what drew me to coding. To me, programming is the practical application of mathematical thinking—a way to build tangible solutions and bring abstract ideas to life through code.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">C Programming</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Web Dev</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <ul class="contact-info">
+            <li><strong>Email:</strong>&nbsp; <a href="mailto:purvirajkotia@gmail.com">purvirajkotia@gmail.com</a></li>
+            <li><strong>Phone:</strong>&nbsp; +91 9561446426</li>
+            <li><strong>LinkedIn:</strong>&nbsp; <a href="https://www.linkedin.com/in/aastha-rajkotia-8342b9374/" target="_blank">linkedin.com/in/yourprofile</a></li>
+        </ul>
+    </section>
+
+   </div>
+
+</body>
+</html>
