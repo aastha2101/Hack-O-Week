@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Fest Registration</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#ff7eb3,#8e44ad,#3498db);
+background-size:400% 400%;
+animation:gradientMove 10s infinite alternate;
+}
+
+@keyframes gradientMove{
+0%{background-position:left;}
+100%{background-position:right;}
+}
+
+.container{
+width:400px;
+padding:35px;
+border-radius:20px;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(12px);
+box-shadow:0 8px 25px rgba(0,0,0,0.2);
+color:white;
+}
+
+.container h1{
+text-align:center;
+margin-bottom:5px;
+}
+
+.container p{
+text-align:center;
+margin-bottom:20px;
+font-size:14px;
+opacity:0.9;
+}
+
+label{
+font-size:14px;
+}
+
+input,select,textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:15px;
+border:none;
+border-radius:8px;
+outline:none;
+background:rgba(255,255,255,0.8);
+}
+
+textarea{
+resize:none;
+}
+
+button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+background:white;
+color:#6a11cb;
+font-weight:600;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#eee;
+transform:scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎉 ENTHUSIA 🎉</h1>
+<p>Register for your favorite event</p>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email" required>
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter phone number" required>
+
+<label>College Name</label>
+<input type="text" placeholder="Enter your college">
+
+<label>Select Event</label>
+<select>
+<option>Fashion Show</option>
+<option>Ramp Walk</option>
+<option>Solo Dance</option>
+<option>Group Dance</option>
+<option>Singing Competition</option>
+<option>Coding Challenge</option>
+</select>
+
+<label>Additional Message</label>
+<textarea rows="3" placeholder="Any queries..."></textarea>
+
+<button type="submit">Register Now</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
